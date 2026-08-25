@@ -1,0 +1,40 @@
+{
+  "best_model": "Gradient Boosting",
+  "numeric_features": [
+    "CreditScore",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "HasCrCard",
+    "IsActiveMember",
+    "EstimatedSalary",
+    "BalanceSalaryRatio",
+    "ProductDensity",
+    "EngagementProductInteraction",
+    "AgeTenureInteraction",
+    "IsZeroBalance"
+  ],
+  "categorical_features": [
+    "Geography",
+    "Gender"
+  ],
+  "test_metrics": {
+    "Model": "Gradient Boosting",
+    "Accuracy": 0.871,
+    "Precision": 0.7898832684824902,
+    "Recall": 0.4987714987714988,
+    "F1-Score": 0.6114457831325302,
+    "ROC-AUC": 0.8701960820604888,
+    "CV ROC-AUC (mean)": 0.863491153894309,
+    "CV ROC-AUC (std)": 0.010156748715417671
+  },
+  "top_permutation_features": [
+    "Age",
+    "NumOfProducts",
+    "Geography",
+    "Balance",
+    "EngagementProductInteraction",
+    "IsActiveMember"
+  ]
+}
