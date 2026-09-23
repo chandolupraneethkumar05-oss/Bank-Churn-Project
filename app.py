@@ -484,7 +484,7 @@ elif page == "📁 Batch Customer Scoring":
         scored_df = batch_df.copy()
         scored_df["ChurnProbability"] = batch_probs
         scored_df["RiskTier"] = [risk_tier(p)[0] for p in batch_probs]
-        scored_df["ActionRequired"] = (batch_probs >= OPTIMAL_THRESHOLD).map({True: "PRIORITY RETENTION OUTREACH", False: "Standard Engagement"})
+        scored_df["ActionRequired"] = np.where(batch_probs >= OPTIMAL_THRESHOLD, "PRIORITY RETENTION OUTREACH", "Standard Engagement")
 
         # Summary KPIs
         high_risk_count = (scored_df["RiskTier"].isin(["High Risk", "Critical Risk"])).sum()
