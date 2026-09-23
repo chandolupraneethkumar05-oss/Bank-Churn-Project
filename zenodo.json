@@ -1,0 +1,30 @@
+{
+  "title": "Predictive Modeling, Threshold Optimization, and Explainable Risk Scoring for Retail Bank Customer Churn",
+  "description": "An open-access empirical research manuscript and reproducible machine learning framework for predictive customer churn intelligence in retail banking. Evaluated on 10,000 multi-market European bank customers across France, Germany, and Spain. Features cost-sensitive threshold calibration, precision-recall optimization, bootstrap confidence intervals, and explainable AI under regulatory compliance frameworks (Basel III & EU AI Act).",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "creators": [
+    {
+      "name": "Kumar, Chandolu Praneeth",
+      "affiliation": "Data Science & Risk Analytics"
+    }
+  ],
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Customer Churn Prediction",
+    "Machine Learning in Banking",
+    "Predictive Risk Scoring",
+    "Threshold Optimization",
+    "Cost-Sensitive Learning",
+    "Explainable Artificial Intelligence (XAI)",
+    "Permutation Importance",
+    "Class Imbalance"
+  ],
+  "communities": [
+    {
+      "identifier": "zenodo"
+    }
+  ],
+  "notes": "Comprehensive empirical research study and production intelligence application for retail banking customer retention."
+}

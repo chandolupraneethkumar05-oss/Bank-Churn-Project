@@ -1,10 +1,17 @@
 {
   "total_customers": 10000,
   "churn_rate": 0.2037,
+  "retained_count": 7963,
+  "churned_count": 2037,
   "churn_by_geography": {
     "Germany": 0.32443204463929853,
     "Spain": 0.1667339523617279,
     "France": 0.16154766653370561
+  },
+  "geography_zero_balance_pct": {
+    "France": 0.48224970083765456,
+    "Germany": 0.0,
+    "Spain": 0.4840532902704885
   },
   "churn_by_gender": {
     "Female": 0.2507153863086066,
@@ -20,8 +27,28 @@
     "3": 0.8270676691729323,
     "4": 1.0
   },
+  "product_counts": {
+    "1": 5084,
+    "2": 4590,
+    "3": 266,
+    "4": 60
+  },
   "avg_age_churned": 44.8379970544919,
   "avg_age_retained": 37.40838879819164,
   "avg_balance_churned": 91108.53933726068,
-  "avg_balance_retained": 72745.2967788522
+  "avg_balance_retained": 72745.2967788522,
+  "statistical_tests": {
+    "chi2_geography": {
+      "chi2_stat": 301.25533682434536,
+      "p_value": 3.8303176053541544e-66
+    },
+    "chi2_num_products": {
+      "chi2_stat": 1503.6293615070408,
+      "p_value": 0.0
+    },
+    "mann_whitney_u_age": {
+      "u_stat": 4345981.5,
+      "p_value": 3.2104014319371675e-230
+    }
+  }
 }

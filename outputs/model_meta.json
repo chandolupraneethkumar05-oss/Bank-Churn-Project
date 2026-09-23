@@ -1,5 +1,6 @@
 {
   "best_model": "Gradient Boosting",
+  "optimal_threshold": 0.27,
   "numeric_features": [
     "CreditScore",
     "Age",
@@ -11,30 +12,72 @@
     "EstimatedSalary",
     "BalanceSalaryRatio",
     "ProductDensity",
+    "BalancePerProduct",
+    "HighRiskProducts",
     "EngagementProductInteraction",
     "AgeTenureInteraction",
-    "IsZeroBalance"
+    "IsZeroBalance",
+    "AgeSquared"
   ],
   "categorical_features": [
     "Geography",
     "Gender"
   ],
-  "test_metrics": {
-    "Model": "Gradient Boosting",
-    "Accuracy": 0.871,
-    "Precision": 0.7898832684824902,
-    "Recall": 0.4987714987714988,
-    "F1-Score": 0.6114457831325302,
-    "ROC-AUC": 0.8701960820604888,
-    "CV ROC-AUC (mean)": 0.863491153894309,
-    "CV ROC-AUC (std)": 0.010156748715417671
+  "test_metrics_default_threshold": {
+    "Accuracy": 0.866,
+    "Precision": 0.7747035573122529,
+    "Recall": 0.48157248157248156,
+    "F1_Score": 0.593939393939394,
+    "ROC_AUC": 0.8707305147983113,
+    "PR_AUC": 0.7210971575956817
+  },
+  "test_metrics_optimal_threshold": {
+    "Optimal_Threshold": 0.27,
+    "Accuracy": 0.8445,
+    "Precision": 0.6016949152542372,
+    "Recall": 0.6977886977886978,
+    "F1_Score": 0.646188850967008,
+    "Expected_Cost": 160800.0,
+    "Cost_Savings_vs_Default": 72650.0
+  },
+  "bootstrap_95_ci": {
+    "Accuracy": {
+      "Mean": 0.8445,
+      "Lower_95": 0.829,
+      "Upper_95": 0.86
+    },
+    "Precision": {
+      "Mean": 0.6013,
+      "Lower_95": 0.5567,
+      "Upper_95": 0.6456
+    },
+    "Recall": {
+      "Mean": 0.6981,
+      "Lower_95": 0.6542,
+      "Upper_95": 0.7396
+    },
+    "F1-Score": {
+      "Mean": 0.6458,
+      "Lower_95": 0.6108,
+      "Upper_95": 0.6815
+    },
+    "ROC-AUC": {
+      "Mean": 0.8708,
+      "Lower_95": 0.8508,
+      "Upper_95": 0.8907
+    },
+    "PR-AUC": {
+      "Mean": 0.7213,
+      "Lower_95": 0.6816,
+      "Upper_95": 0.7589
+    }
   },
   "top_permutation_features": [
-    "Age",
     "NumOfProducts",
+    "AgeSquared",
+    "Age",
     "Geography",
-    "Balance",
     "EngagementProductInteraction",
-    "IsActiveMember"
+    "BalanceSalaryRatio"
   ]
 }
