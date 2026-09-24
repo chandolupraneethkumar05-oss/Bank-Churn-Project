@@ -3,7 +3,7 @@
 **Chandolu Praneeth Kumar**  
 *Lead Data Scientist & Risk Analytics Specialist*  
 Submission Repository: [GitHub](https://github.com/chandolupraneethkumar05-oss/Bank-Churn-Project)  
-Archival Repository: [Zenodo](https://doi.org/10.5281/zenodo.placeholder)  
+Archival Repository: [Zenodo Record](https://zenodo.org/records/22938372) (DOI: [10.5281/zenodo.22938372](https://doi.org/10.5281/zenodo.22938372))  
 September 2026
 
 ---
@@ -250,7 +250,7 @@ The framework is deployed as a modular interactive web application (`app.py`) fe
 This study demonstrates that achieving production-grade customer churn intelligence in retail banking requires moving beyond nominal accuracy toward cost-sensitive threshold calibration, deep exploration of market-specific anomalies (the German Zero-Balance Paradox), and regulatory explainability. By calibrating the decision threshold to $T^* = 0.32$, the proposed architecture captures 76.4% of at-risk accounts, delivering an estimated \$89,750 in preserved capital per 2,000 evaluated customers while fulfilling European regulatory governance mandates.
 
 ### Data and Code Availability
-All source datasets, reproducible preprocessing scripts (`01_eda.py`), model pipelines (`02_modeling.py`), visualization outputs, serialized model pipelines (`models/best_model.pkl`), and the enterprise Streamlit application (`app.py`) are openly available on GitHub at [chandolupraneethkumar05-oss/Bank-Churn-Project](https://github.com/chandolupraneethkumar05-oss/Bank-Churn-Project) and permanently archived on Zenodo under DOI `10.5281/zenodo.placeholder` with an open-source MIT and CC-BY-4.0 license.
+All source datasets, reproducible preprocessing scripts (`01_eda.py`), model pipelines (`02_modeling.py`), visualization outputs, serialized model pipelines (`models/best_model.pkl`), and the enterprise Streamlit application (`app.py`) are openly available on GitHub at [chandolupraneethkumar05-oss/Bank-Churn-Project](https://github.com/chandolupraneethkumar05-oss/Bank-Churn-Project) and permanently archived on Zenodo under DOI [`10.5281/zenodo.22938372`](https://doi.org/10.5281/zenodo.22938372) with an open-source MIT and CC-BY-4.0 license.
 
 ---
 

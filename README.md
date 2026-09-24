@@ -3,11 +3,10 @@
 [![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.13-blue.svg)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-v1.9.0-orange.svg)](https://scikit-learn.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-v1.40+-FF4B4B.svg)](https://streamlit.io/)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.placeholder-blue.svg)](https://doi.org/10.5281/zenodo.placeholder)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22938372-blue.svg)](https://doi.org/10.5281/zenodo.22938372)
 
 > **Lead Author & Data Scientist**: Chandolu Praneeth Kumar  
-> **Archival Target**: [Zenodo Open-Access Repository](https://zenodo.org/)  
+> **Archival Target**: [Zenodo Open-Access Record](https://zenodo.org/records/22938372)  
 > **Repository**: [chandolupraneethkumar05-oss/Bank-Churn-Project](https://github.com/chandolupraneethkumar05-oss/Bank-Churn-Project)
 
 ---
@@ -155,7 +154,7 @@ streamlit run app.py
 This research and codebase are permanently archived on Zenodo under open-access **CC-BY-4.0** and **MIT** licensing:
 
 ### APA Citation
-> Kumar, C. P. (2026). *Predictive Modeling, Threshold Optimization, and Explainable Risk Scoring for Retail Bank Customer Churn*. Zenodo. https://doi.org/10.5281/zenodo.placeholder
+> Kumar, C. P. (2026). *Predictive Modeling, Threshold Optimization, and Explainable Risk Scoring for Retail Bank Customer Churn*. Zenodo. https://doi.org/10.5281/zenodo.22938372
 
 ### BibTeX
 ```bibtex
@@ -164,7 +163,7 @@ This research and codebase are permanently archived on Zenodo under open-access 
   title        = {Predictive Modeling, Threshold Optimization, and Explainable Risk Scoring for Retail Bank Customer Churn},
   year         = {2026},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.placeholder},
-  url          = {https://github.com/chandolupraneethkumar05-oss/Bank-Churn-Project}
+  doi          = {10.5281/zenodo.22938372},
+  url          = {https://zenodo.org/records/22938372}
 }
 ```
